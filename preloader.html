@@ -1,0 +1,83 @@
+<style>
+body {
+	background-color: aqua; 
+}	
+#loader {
+    z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
+}
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+}
+ 
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+ 
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+            -webkit-transition: all 1s 2s cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+                	transition: all 1s 2s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+ 
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+
+            -webkit-transition: all 1s 2s cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+                	transition: all 1s 2s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out; 
+            transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+
+        -webkit-transition: all 0.3s 1s ease-out; 
+                transition: all 0.3s 1s ease-out;
+}
+
+.no-js #loader-wrapper {
+    display: none;
+}
+
+</style>
+
+<script>
+	window.onload = function() {
+  setTimeout(function() {
+  	document.getElementById("body").className = "loaded";
+  }, 3000);
+};
+</script>
+
+<body id="body">
+	<div id="loader-wrapper">
+	  <div id="loader"></div>
+
+	  <div class="loader-section section-left"></div>
+	  <div class="loader-section section-right"></div>
+	</div>
+</body>	
