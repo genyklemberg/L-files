@@ -236,7 +236,7 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
-@font-family {
+@font-face {
 	font-family: 'FreeSetFont';
 	src: url("../assets/fonts/FreeSetExtraCTT.eot");
   src: url("../assets/fonts/FreeSetExtraCTT.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/FreeSetExtraCTT.woff2") format("woff2"), url("../assets/fonts/FreeSetExtraCTT.woff") format("woff"), url("../assets/fonts/FreeSetExtraCTT.ttf") format("truetype"), url("../assets/fonts/FreeSetExtraCTT.svg") format("svg");
@@ -5837,7 +5837,7 @@ button {
   border: 0;
   padding: 20px 25px;
   text-transform: uppercase;
-  font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+  font-family: FreeSetFont, "FreeSetEx_traCTT", Calibri, Arial, sans-serif;
     /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
 
