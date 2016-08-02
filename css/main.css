@@ -240,18 +240,6 @@ th {
 	font-family: 'FreeSetFont';
 	src: url("../assets/fonts/FreeSetExtraCTT.eot");
   src: url("../assets/fonts/FreeSetExtraCTT.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/FreeSetExtraCTT.woff2") format("woff2"), url("../assets/fonts/FreeSetExtraCTT.woff") format("woff"), url("../assets/fonts/FreeSetExtraCTT.ttf") format("truetype"), url("../assets/fonts/FreeSetExtraCTT.svg") format("svg");
-  
-    /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
 }
 
 @font-face {
@@ -5850,6 +5838,17 @@ button {
   padding: 20px 25px;
   text-transform: uppercase;
   font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
   font-size: 16px; }
   button.btn-red {
     background-color: #e2231a;
@@ -5966,6 +5965,17 @@ button {
 h1 {
   color: #fdcf00;
   font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
   font-size: 78px;
   line-height: 64px;
   text-transform: uppercase; }
@@ -5977,6 +5987,17 @@ h1 {
 
 h2 {
   font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
   font-size: 40px;
   color: white;
   line-height: 36px;
@@ -5988,6 +6009,17 @@ h2 {
 
 h3 {
   font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
   font-size: 24px;
   color: white;
   line-height: 32px;
@@ -6000,6 +6032,17 @@ h3 {
 h4 {
   color: white;
   font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
   font-size: 20px;
   margin-bottom: 24px;
   margin-top: 24px;
@@ -6008,6 +6051,17 @@ h4 {
 h5 {
   color: white;
   font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
   font-size: 16px;
   margin-bottom: 24px;
   margin-top: 24px;
@@ -6016,6 +6070,17 @@ h5 {
 h6 {
   color: white;
   font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
   font-size: 14px;
   margin-bottom: 24px;
   margin-top: 24px;
@@ -6082,6 +6147,17 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff; }
   .desktop-details h1 {
     font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+      /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
     font-size: 24px;
     color: white;
     line-height: 36px; }
@@ -6112,6 +6188,17 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase; }
     .desktop-details .caption-label {
       font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
       font-size: 16px;
       font-weight: 400;
       margin-top: 50px; }
@@ -6124,6 +6211,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 100px; }
     .desktop-details .price span {
       font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
       font-size: 30px;
       color: white;
       text-transform: initial; }
@@ -6143,6 +6241,17 @@ h1, h2, h3, h4, h5, h6 {
     padding: 55px 0 0 0; }
   .desktop-details .carousel .carousel-inner .carousel-caption {
     font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+      /* Support for all WebKit browsers. */
+      -webkit-font-smoothing: antialiased;
+
+      /* Support for Safari and Chrome. */
+      text-rendering: optimizeLegibility;
+
+      /* Support for Firefox. */
+      -moz-osx-font-smoothing: grayscale;
+
+      /* Support for IE. */
+      font-feature-settings: 'liga';
     font-size: 24px;
     text-transform: uppercase;
     color: #000;
@@ -6264,7 +6373,20 @@ h1, h2, h3, h4, h5, h6 {
 .desktop .carousel .price-box p {
   color: #fdcf00;
   font-size: 30px;
-  font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif; }
+  font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif; 
+    /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+}
   .desktop .carousel .price-box p span.old-price {
     margin-right: 10px;
     text-decoration: line-through;
@@ -6340,6 +6462,17 @@ h1, h2, h3, h4, h5, h6 {
       height: 100%;
       padding-top: 250px;
       font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Support for IE. */
+        font-feature-settings: 'liga';
       font-size: 24px;
       line-height: 32px;
       text-transform: uppercase;
@@ -6456,6 +6589,17 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     text-transform: uppercase;
     font-family: FreeSetFont, "FreeSetExtraCTT", Calibri, Arial, sans-serif;
+      /* Support for all WebKit browsers. */
+      -webkit-font-smoothing: antialiased;
+
+      /* Support for Safari and Chrome. */
+      text-rendering: optimizeLegibility;
+
+      /* Support for Firefox. */
+      -moz-osx-font-smoothing: grayscale;
+
+      /* Support for IE. */
+      font-feature-settings: 'liga';
     font-size: 12px; }
     .footer-bright .footer-menu a:not(:first-child) {
       margin-left: 10px; }
