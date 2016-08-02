@@ -1,5 +1,6 @@
 	AddType application/vnd.ms-fontobject .eot
     AddType application/font-woff .woff
+    AddType application/font-woff2 .woff2
     AddType application/x-font-truetype .ttf
     AddType image/svg+xml .svg
     AddType application/x-font-opentype .otf
@@ -7,7 +8,7 @@
     # could use application/octet-stream for default binary file transfer
 	#AddType application/octet-stream .otf .ttf
 
-<FilesMatch "\.(ttf|otf|eot|svg|woff)$">
+<FilesMatch "\.(ttf|otf|eot|svg|woff|woff2)$">
 	<IfModule mod_headers.c>
 		Header set Access-Control-Allow-Origin "*"
 	</IfModule>
