@@ -1,0 +1,164 @@
+/*body {
+  padding-top: 50px;
+}*/
+.starter-template {
+  padding: 40px 15px;
+}
+.home {
+  text-align: center;
+  .row-container {
+    margin: 0 0;
+    overflow: hidden;
+  }
+
+  h1 {
+    text-align: left;
+    margin-top: 260px;
+    @media (min-width: 320px) and (max-width: 812px){
+      font-size:34px;
+      max-width: 320px;
+      //padding-right: 80%;
+    }
+
+    span{
+      font-size:60px;
+    }
+    @media (min-width: 320px) and (max-width: 767px){
+      span {
+        &:first-child{
+          font-size:30px;
+          line-height: 46px;
+          //padding-right: 80%;
+        }
+        font-size:20px;
+        display: block;
+        line-height: 20px;
+      }
+    }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 991px){
+    .lead-small {
+      margin-bottom: 55px;
+    }
+  }
+
+  .col-md-6 {
+    &:nth-child(2n) {
+      padding-left: 55px;
+      padding-right: 30px;
+      @media  (min-width: 768px) and (max-width: 991px){
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-top: 60px;
+      }
+      @media (max-width: 767px){
+        padding-left: 25px;
+        padding-right: 45px;
+        padding-top: 60px;
+      }
+    }
+    &:nth-child(2n+1) {
+      padding-left: 40px;
+      padding-right: 55px;
+      @media (max-width: 767px){
+        padding-left: 25px;
+        padding-right: 45px;
+      }
+    }
+  }
+
+  /*set overflow for red-stars*/
+  .bg-banner-bottom {
+    overflow: visible;
+    z-index: 2;
+  }
+
+  @media (max-width: 340px){
+    .clear-padding-mobile{
+      padding: 0 !important;
+      min-width: 100%;
+    }
+  }
+
+}
+
+
+
+.image-box a {
+  width: 34.5%;
+  display: inline-block;
+  &:first-child {
+    width: 29.5%;
+  }
+  @media (min-width: 320px) and (max-width: 991px){
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    &:first-child {
+      width: 100%;
+    }
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
+
+}
+
+.star-after,
+.star-before {
+  position: absolute;
+  width: 583px;
+  height: 1143px;
+  bottom: -128px;
+}
+
+.star-before{
+  background-image: url("../assets/img/star-half.png");
+  left: 0;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+
+  @media (min-width: 945px) and (max-width: 1140px){
+    left: -102px;
+    //bottom: -248px;
+    //transform: scale(-0.65,0.65);
+  }
+  @media (min-width: 768px) and (max-width: 944px){
+    left: -223px;
+    bottom: -164px;
+    //transform: scale(-0.35,0.35);
+  }
+  @media (min-width: 320px) and (max-width: 767px){
+    left: -245px;
+    bottom: 240px;
+    transform: scale(-0.35,0.35);
+  }
+
+}
+.star-after{
+  background-image: url("../assets/img/star-half.png");
+  right: 0; //15px;
+
+  @media (min-width: 945px) and (max-width: 1140px){
+    right: -102px;
+    //bottom: -248px;
+    //transform: scale(0.65,0.65);
+  }
+  @media (min-width: 768px) and (max-width: 944px){
+    right: -223px;
+    bottom: -164px;
+    //        transform: scale(0.35,0.35);
+  }
+  @media (min-width: 320px) and (max-width: 767px){
+    right: -245px;
+    bottom: 240px;
+    transform: scale(0.35,0.35);
+  }
+}
+

@@ -1,0 +1,27 @@
+{ "items": [
+  {
+    "large":"assets/img/desktop-details/main-product/prod-big-img.png",
+    "thumb":"assets/img/desktop-details/main-product/prod-small-img0.png",
+    "title":"First image! + some link <a href=\"http://en.wikipedia.org/wiki/HTML\" target=\"_blank\" >HTML</a>"
+  },
+  {
+    "large":"assets/img/desktop-details/main-product/prod-small-img1.png",
+    "thumb":"assets/img/desktop-details/main-product/prod-small-img1.png",
+    "title":"Second image!"
+  },
+  {
+    "large":"assets/img/desktop-details/main-product/prod-small-img2.png",
+    "thumb":"assets/img/desktop-details/main-product/prod-small-img2.png",
+    "title":"Third image!"
+  },
+  {
+    "large":"assets/img/desktop-details/main-product/prod-small-img3.png",
+    "thumb":"assets/img/desktop-details/main-product/prod-small-img3.png",
+    "title":"Third image!"
+  },
+  {
+    "large":"assets/img/desktop-details/main-product/prod-small-img5.png",
+    "thumb":"assets/img/desktop-details/main-product/prod-small-img5.png",
+    "title":"Third image!"
+  }
+]}
