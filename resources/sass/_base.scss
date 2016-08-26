@@ -1,0 +1,243 @@
+$height-banner-mobile: 660px;
+
+body {
+  background-color: $body-bg;
+  color: $white;
+  font-family: $font-family-sans-serif;
+}
+p {
+  //color: $white;
+}
+a:focus,
+:focus {
+  outline: none;
+}
+button {
+  border: 0;
+  padding: 20px 25px;
+  text-transform: uppercase;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  &.btn-red{
+    background-color: $red;
+    color: $white;
+    &:hover {
+     background-color: $yellow;
+      color: $gray-base;
+    }
+    &.invert-hover {
+      &:hover {
+        background-color: $white;
+        color: $yellow;
+      }
+    }
+  }
+  &.btn-yellow{
+    background-color: $yellow;
+    color: $red;
+    &:hover {
+      background-color: $red;
+      color: $gray-base;
+    }
+    &.invert-hover {
+      &:hover {
+        background-color: $gray-base;
+        color: $red;
+      }
+    }
+  }
+  &.btn-small {
+    padding: 9px 25px;
+    @media (min-width: 320px) and (max-width: 991px){
+      padding: 11px 12px;
+      font-size: 12px;
+    }
+  }
+}
+.container{
+  width: 100%;
+  padding: 0 110px;
+  min-width: 100%;
+  @media (max-width: 1390px){
+    padding:  0 60px;
+    min-width: 100%;
+    margin: 0;
+  }
+  /*@media (min-width: 1200px){
+    max-width: 100%;
+  }
+  @media (min-width: 992px) {
+    max-width: 100%;
+  }*/
+  @media (min-width: 320px) and (max-width: 767px){
+    padding:  0 30px;
+  }
+}
+.row-container{
+  margin: 0 15px;
+}
+
+.carousel.slide img {
+  max-width:100%;
+  height:auto;
+}
+
+.bg{
+  &-white {
+    background-color: #fff;
+  }
+  &-yellow {
+    background-color: $yellow;
+  }
+  &-black {
+  background-color: #000;
+  }
+}
+
+.color {
+  &-white {
+    color: #fff;
+  }
+  &-black {
+    color: #000;
+  }
+  &-red {
+    color: $red;
+  }
+}
+
+.bg-banner{
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  //height: auto;
+  min-height: 900px;
+  padding-top: 140px;
+
+  @media (min-width: 320px) and (max-width: 767px){
+    min-height: $height-banner-mobile;
+    padding-top: 70px;
+  }
+  &-first{
+    background-image: url("../assets/img/bg-banner01.jpg");
+    overflow: visible;
+    @media (min-width: 320px) and (max-width: 812px){
+      min-height: $height-banner-mobile;
+    }
+    .col-md-6 {
+      padding-right: 90px;
+      min-width: 780px;
+      .lead {
+        padding-right: 20%;
+        max-width: 780px;
+        @media (min-width: 320px) and (max-width: 767px){
+          max-width: 300px;
+          padding-right: 0;
+        }
+      }
+    }
+    .center-absolute {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      &--star {
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        @media (min-width: 320px) and (max-width: 480px){
+          top: 30%;
+        }
+        @media (min-width: 481px) and (max-width: 580px){
+          top: 20%;
+        }
+        @media (min-width: 581px) and (max-width: 767px){
+          top: 10%;
+        }
+
+      }
+      &--hero {
+        left: 17%;
+        @media (min-width: 1390px) {
+          left: initial;
+        }
+        @media (min-width: 320px) and (max-width: 380px){
+          left: -350px;
+        }
+        @media (min-width: 381px) and (max-width: 480px){
+          left: -280px;
+        }
+        @media (min-width: 481px) and (max-width: 610px){
+          left: -200px;
+        }
+        @media (min-width: 611px) and (max-width: 812px){
+          left: -130px;
+          transform: scale(0.75);
+          bottom: -74px;
+        }
+        @media (min-width: 320px) and (max-width: 812px){
+          transform: scale(0.75);
+          bottom: -74px;
+        }
+      }
+    }
+  }
+  &-gradient{
+    background-image: url("../assets/img/bg-banner-gradient.png");
+    background-position: 0 300px;
+    background-size: inherit;
+    background-repeat: repeat-x;
+    .notepad-img{
+      padding-top: 100px;
+      padding-left: 25px;
+      @media (min-width: 320px) and (max-width: 767px) {
+        padding-top: 10%;
+      }
+    }
+    .pc-img{
+      margin-left: -200px;
+    }
+    .notepad-img,
+    .pc-img{
+      @media (min-width: 320px) and (max-width: 991px) {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  &-second{
+    background-image: url("../assets/img/bg-banner02.png");
+    a > img {
+      max-width: 100%;
+    }
+  }
+  &-bottom{
+    background-image: url("../assets/img/bg-banner03.png");
+    overflow: visible;
+
+  }
+  &-black {
+    background-color: $gray-base;
+    color: $white;
+  }
+
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.no-desktop {
+  display: none;
+  @media (min-width: 320px) and (max-width: 991px) {
+    display: block;
+  }
+}
+
+
+

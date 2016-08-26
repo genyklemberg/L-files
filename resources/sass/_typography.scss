@@ -1,0 +1,95 @@
+
+h1 {
+  color: $headings-color;
+  font-family: $font-family-base;
+  font-size:$font-size-h1;
+  line-height: $line-height-h1;
+  text-transform: uppercase;
+  @media (max-width: 767px){
+    font-size:$size-h3;
+    line-height: $line-height-h3;
+    padding: 0;
+  }
+}
+h2 {
+  font-family: $font-family-base ;
+  font-size: $font-size-h2;
+  color: $white;
+  line-height: $line-height-h2;
+  text-transform: uppercase;
+  @media (max-width: 767px){
+    font-size:$size-h3;
+    line-height: $line-height-h3;
+  }
+}
+
+h3 {
+  font-family: $font-family-base;
+  font-size: $font-size-h3;
+  color: $white;
+  line-height: $line-height-h3;
+  text-transform: uppercase;
+  @media (max-width: 767px){
+    font-size:$size-h4;
+    line-height: $line-height-h4;
+  }
+}
+
+h4 {
+  color: $white;
+  font-family: $font-family-base;
+  font-size: $font-size-h4;
+  margin-bottom: $base-margin;
+  margin-top: $base-margin;
+  line-height: $line-height-h4;
+}
+h5 {
+  color: $white;
+  font-family: $font-family-base;
+  font-size: $font-size-h5;
+  margin-bottom: $base-margin;
+  margin-top: $base-margin;
+  line-height: $line-height-h5;
+}
+h6 {
+  color: $white;
+  font-family: $font-family-base;
+  font-size: $font-size-h6;
+  margin-bottom: $base-margin;
+  margin-top: $base-margin;
+  line-height: $line-height-h6;
+  @media (max-width: 767px){
+    font-family: $font-size-h5;
+    font-size:$size-h5;
+    line-height: $line-height-h5;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
+
+.caption {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 25px;
+  color: $caption-text;
+}
+
+.lead {
+  text-transform: uppercase;
+  font-size: $size-lead; //20px
+  line-height: 30px;
+  &-small {
+    font-size: 16px;
+    color: $lead-small;
+    margin: 0 auto 100px;
+    max-width: 530px;
+  }
+
+  @media (max-width: 767px){
+    font-size: $font-size-base; //16px
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,68 @@
+body + #status{
+  background-color: black;
+  overflow:hidden;
+}
+#status {
+  display: block;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  min-height: 100px;
+  z-index: 99;
+}
+
+.wrapper {
+  z-index: 99;
+  position: fixed;
+  /* Firefox */
+  left: -moz-calc(50% - 37px);
+  /* WebKit */
+  left: -webkit-calc(50% - 37px);
+  /* Opera */
+  left: -o-calc(50% - 37px);
+  /* Standard */
+  left: calc(50% - 37px);
+  /* Firefox */
+  top: -moz-calc(50% - 37px);
+  /* WebKit */
+  top: -webkit-calc(50% - 37px);
+  /* Opera */
+  top: -o-calc(50% - 37px);
+  /* Standard */
+  top: calc(50% - 37px);
+}
+/* The animation code */
+@keyframes preload {
+  0% {width: 74px; height: 74px; }
+  50% {width: 0px; height: 0px; }
+  100% {width: 74px; height: 74px; }
+}
+.anime {
+  position: absolute;
+  left: 37px;
+  top: 37px;
+  transform: translate(-50%, -50%);
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-color: yellow;
+  -webkit-filter: blur(25px); /* Chrome, Safari, Opera */
+  filter: blur(25px);
+  opacity: 0.7;
+  /* The element to apply the animation to */
+  animation-name: preload;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+#preloader {
+  position: absolute;
+  top: 10px;
+  width: 74px;
+  height: 74px;
+  z-index: 1000;
+}
